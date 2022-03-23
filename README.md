@@ -28,3 +28,6 @@ The __Nogomet__ application also allows you to directly download the scorers tab
   * matches contains all the information about the matches that took place (date, home team, ...)
 
   * three-sixty includes all the information about the coordinates of the shots
+
+* the pictures file contains all the images used to design the application
+
