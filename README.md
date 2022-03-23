@@ -18,3 +18,13 @@ The __Nogomet__ application also allows you to directly download the scorers tab
 * app. R gathers all the code necessary to realize the application (cleaning, ui part and server part)
 
 * soccerfield is the R code file that allows to draw the soccer field
+
+* the data folder contains all the data necessary for the creation of this project: 
+
+** the events folder contains all the events that took place during a soccer season
+
+** lineups contains all the information about the players
+
+** matches contains all the information about the matches that took place (date, home team, ...)
+
+** three-sixty includes all the information about the coordinates of the shots
