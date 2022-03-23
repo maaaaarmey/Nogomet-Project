@@ -8,6 +8,6 @@ All the shots will be represented on the soccer field on the right of the filter
 
 The small soccer field just below the larger one allows you to select with your own cursor a place on the soccer field to directly filter where the balls can come from. 
 
-The __Nogomet__application also allows you to directly download the scorers table (defined according to the set of filters) in .csv format using the "download the data" button.
+The __Nogomet__ application also allows you to directly download the scorers table (defined according to the set of filters) in .csv format using the "download the data" button.
 
 *The creation of this application is part of a university Big Data project (University of Tours).*
