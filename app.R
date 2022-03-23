@@ -5,12 +5,12 @@ library(dplyr)
 
 '%!in%' <- function(x,y)!('%in%'(x,y))
 
-competitions <- fromJSON(file="C:/Users/mmeye/Downloads/open-data-master/nogomet/data/competitions.json")
+competitions <- fromJSON(file="C:/Users/mmeye/Downloads/nogomet/data/competitions.json")
 
 competitions.df <- data.frame(do.call(rbind,competitions),stringsAsFactors = FALSE)
 
 
-match.files <- list.files(path="C:/Users/mmeye/Downloads/open-data-master/nogomet/data/matches",
+match.files <- list.files(path="C:/Users/mmeye/Downloads/nogomet/data/matches",
                           full.names = TRUE,recursive = TRUE)
 
 matches.list <- list()
@@ -33,7 +33,7 @@ all.matches.clean$home_score <- as.numeric(all.matches.clean$home_score)
 all.matches.clean$away_score <- as.numeric(all.matches.clean$away_score)
 
 
-event.files <- list.files(path="C:/Users/mmeye/Downloads/open-data-master/nogomet/data/events",
+event.files <- list.files(path="C:/Users/mmeye/Downloads/nogomet/data/events",
                           full.names = TRUE,recursive = TRUE)
 
 event.list <- list()
@@ -221,20 +221,20 @@ campo.coordinates <- expand.grid(campo.x,campo.y)
 colnames(campo.coordinates) <- c("X","Y")
 
 
-setwd("C:/Users/mmeye/Downloads/open-data-master/nogomet")
+setwd("C:/Users/mmeye/Downloads/nogomet")
 shots.shiny.final<-data.frame(shots.shiny.final)
 shots.shiny.final2<- data.frame(shots.shiny.final2)
 write.csv2(shots.shiny.final, file = "shots.shiny.final.csv")
 write.csv2(shots.shiny.final2, file = "shots.shiny.final2.csv")
 
 
-source("C:/Users/mmeye/Downloads/open-data-master/nogomet/soccerfield.R") 
+source("C:/Users/mmeye/Downloads/nogomet/soccerfield.R") 
 #install.packages("shiny")
 library(shiny)
 library(DT) 
 library(mgcv)
 library(bslib)
-
+setwd("C:/Users/mmeye/Downloads/nogomet/pictures")
 
 ui <- fluidPage(
     navbarPage(title = "Nogomet",
