@@ -11,3 +11,10 @@ The small soccer field just below the larger one allows you to select with your 
 The __Nogomet__ application also allows you to directly download the scorers table (defined according to the set of filters) in .csv format using the "download the data" button.
 
 *The creation of this application is part of a university Big Data project (University of Tours).*
+
+# Description of all files
+
+
+* app. R gathers all the code necessary to realize the application (cleaning, ui part and server part)
+
+* soccerfield is the R code file that allows to draw the soccer field
