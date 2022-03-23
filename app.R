@@ -266,7 +266,7 @@ ui <- fluidPage(
                                                  close to him and without opponents in front of him."),
                                  br(),
                                  p(style="text-align: justify; font-size=25px",
-                                   "The", em("Nogomet"), " application also allows you to directly save the plot (with all the desired filters) in png or pdf format."),
+                                   "The", em("Nogomet"), " application also allows you to directly save the table of scorers (provided according to the selection of filters) in .csv format"),
                                  hr(),
                                  p(style="text-align: justify; font-size=10px",
                                    "The data comes from Data Soccer")
