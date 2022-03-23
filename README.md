@@ -21,7 +21,7 @@ The __Nogomet__ application also allows you to directly download the scorers tab
 
 * the data folder contains all the data necessary for the creation of this project: 
 
-** the events folder contains all the events that took place during a soccer season
+`* the events folder contains all the events that took place during a soccer season`
 
 ** lineups contains all the information about the players
 
