@@ -10,7 +10,6 @@ The small soccer field just below the larger one allows you to select with your 
 
 The __Nogomet__ application also allows you to directly download the scorers table (defined according to the set of filters) in .csv format using the "download the data" button.
 
-*The creation of this application is part of a university Big Data project (University of Tours).*
 
 # Description of all files
 
@@ -30,4 +29,7 @@ The __Nogomet__ application also allows you to directly download the scorers tab
   * three-sixty includes all the information about the coordinates of the shots
 
 * the pictures file contains all the images used to design the application
+
+
+*The creation of this application is part of a university Big Data project (University of Tours). This application, being a university project, is not yet fully completed and has some bugs and areas for improvement.*
 
