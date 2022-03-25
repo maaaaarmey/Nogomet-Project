@@ -1,5 +1,9 @@
 # Nogomet-Project
 
+<p align="center">
+ <span class="hljs-tag"><img src=https://am4pap001files.storage.live.com/y4mvCAdG8JF8uoPY6SR_bb1mz69hwbnFojzSK8bfRFXB9UGUBkyo0wA5axdyiVxwU3-jA3-f32olw1mIYppwpWL9a11_oz5CFSdCwWfoxNL4QYf3vXuUjfUbGlH3ahFJ1cNLu6ajXPiIbdYN-wT0ZWqlY6YaIfgBiqFULhJdHduRM6ALjtdIZQor9F9B8peCFLc?width=847&height=793&cropmode=none />
+</p>
+
 The __Nogomet__ application allows to visualize all the shots made according to a selection of filters. You can choose the desired comptition, the season, the desired team(s) and the type of shots.
 
 All the shots will be represented on the soccer field on the right of the filtering area. The size variation depends directly on the expected goals (also knows as xG). The xG represent the probability of scoring the goal. You can choose the xG score you want to see on the soccer field with the xG slicer. To illustrate how an xG works let's take two simple examples:
